@@ -20,6 +20,7 @@ public class Ex4_2 {
 			}
 		}
 		System.out.println(arr[1]);
+		scan.close();
 	}
 
 }
