@@ -22,7 +22,7 @@ public class Ex4_5 {
 					if(score[j]>avg) topNum++;
 				}
 				double topRatio = (double)topNum/std*100;
-				System.out.println(String.format("%.3f", topRatio));
+				System.out.println(String.format("%.3f%s", topRatio, "%"));
 			}
 		}
 	}
